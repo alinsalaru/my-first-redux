@@ -1,5 +1,5 @@
-const increment = () => ({type: 'INCREMENT'});
-const decrement = () => ({type: 'DECREMENT'});
+const increment = (payload) => ({type: 'INCREMENT', payload: payload });
+const decrement = (number) => ({type: 'DECREMENT', payload: number});
 
 const logIn = () => ({
     type: 'LOGGED_IN'

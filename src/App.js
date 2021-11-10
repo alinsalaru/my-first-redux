@@ -14,11 +14,11 @@ function App() {
     <div className="App">
       <div>Counter: {counter}</div>
       <div>Is user logged in? {loggedIn ? 'yes' : 'no'}</div>
-      <button onClick={()=> dispatch(increment())}>
+      <button onClick={()=> dispatch(increment(5))}>
         Increment
       </button>
 
-      <button onClick={()=> dispatch(decrement())}>
+      <button onClick={()=> dispatch(decrement(6))}>
         Decrement
       </button>
 
