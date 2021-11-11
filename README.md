@@ -1,3 +1,7 @@
+# Purpose
+
+This project was a demo for an advanced React bootcamp, to better understand redux and redux hooks. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
